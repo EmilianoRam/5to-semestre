@@ -14,18 +14,18 @@ public class AppBuilder extends Builder {
     @Override
     void buildJuegos() {
         Juegos juegos =  new Juegos();
-        juegos.setNombre("Juego1");
+        juegos.setNombre("GT");
         juegos.setVersion(4.1);
-        juegos.setTipo("hola");
+        juegos.setTipo("accion");
         app.setJuegos(juegos);
     }
 
     @Override
     void buildFitness() {
         Fitness fitness = new Fitness();
-        fitness.setNombre("app1");
-        fitness.setVersion(3.0);
-        fitness.setTipo("app");
+        fitness.setNombre("Gym");
+        fitness.setVersion(5.0);
+        fitness.setTipo("muscle");
         app.setFitness(fitness);
         
     }
